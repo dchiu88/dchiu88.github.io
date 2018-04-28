@@ -88,7 +88,9 @@ For the sake of succinctness we do not have to write a new writer and reader met
 >   attr_writer :location #this creates a method location equals location =() and creates a writer method
 >   attr_reader :dna #this creates a reader for dna
 
-**Responsibility**
+**Class Variable and Self**
+Class variables work on the entire class
 
+Self is representative of the object receiving the method call.
 
 
