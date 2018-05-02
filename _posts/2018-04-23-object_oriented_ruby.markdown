@@ -89,7 +89,7 @@ For the sake of succinctness we do not have to write a new writer and reader met
 >   attr_reader :dna #this creates a reader for dna
 
 **Class Variable and Self**
-Class variables work on the entire class
+An instance variable is responsible for holding information regarding an instance of a class and is accessible only to that instance of the class. A class variable is accessible to the entire class––it has class scope. A class method is a method that is called on the class itself, not on the instances of that class. Class variables store information regarding the class as a whole and class methods enact behaviors that belong to the whole class, not just to individual instances of that class.
 
 Self is representative of the object receiving the method call.
 
