@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Understanding ORM"
-date:       2018-08-24 13:24:12 +0000
+date:       2018-08-24 09:24:13 -0400
 permalink:  understanding_orm
 ---
 
@@ -32,6 +32,8 @@ Cat.all.each do |cat|
   Cat.save(cat.name, cat.breed, cat.age, database_connection)
 end
 
-Instead, we follow the convention: classes are mapped to or equated with tables and instances of a class are equated to table rows.
+In ORM there is a convention: classes are mapped to or equated with tables and instances of a class are equated to table rows.
 
-If we have a Cat class, we have a cats table. Cat instances get stored as rows in the cats table.
+More specifically, it is the attributes of the new instances that are mapped to table rows. We are not saving ruby objects, only the individual objects. Ergo, we are not inserting self into the database, we are inserting self.name or another attribute into the database.
+
+
