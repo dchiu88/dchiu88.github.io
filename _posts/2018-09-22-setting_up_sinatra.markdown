@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Setting up Sinatra "
-date:       2018-09-22 16:36:47 +0000
+date:       2018-09-22 12:36:48 -0400
 permalink:  setting_up_sinatra
 ---
 
@@ -49,4 +49,4 @@ require_all './app/models'
 Migrations are a way to create and update tables without needing to manually go through SQL. Using the migrations system to apply the schema changes is easier than keeping track of the changes manually and executing them manually at the appropriate time.
 
 4. Set up Models
-5. Set up Controller
+5. Set up Build out Routes in Controller
