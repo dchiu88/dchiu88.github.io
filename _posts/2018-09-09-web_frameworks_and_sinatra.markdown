@@ -48,3 +48,6 @@ How does our application know what to show a user based on the web request they 
 In Sinatra, a route is constructed by pairing an HTTP method/verb, like GET or POST with a URL-matching pattern, i.e. a string that matches what users type in to their browser when they want to visit our webpage. 
 
 Routes match the web request sent by a client to some code in our application that tells the app what data and templates to send back to the client.
+
+*Params*
+Params are a hash where user input is stored.
